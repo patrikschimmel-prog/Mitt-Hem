@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090b0e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Mitt Hem</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090b0e;color:#f7f5f0;font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif}
+main{max-width:520px;margin:auto;padding:30px 18px 110px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+h1{font-size:30px;margin:0}
+h2{font-size:19px;margin:28px 0 14px}
+p{color:#9b9da5;font-size:13px}
+.gold{color:#e5ba69}
+.panel{background:#191b20;border:1px solid #2c2d32;border-radius:22px;padding:18px;margin-bottom:12px}
+.hero{background:linear-gradient(135deg,#29251e,#111a20);padding:25px 20px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tile{background:#191b20;border:1px solid #2c2d32;border-radius:20px;padding:20px 14px;min-height:120px;text-align:left;color:white;font-size:15px}
+.emoji{font-size:29px;display:block;margin-bottom:15px}
+.small{font-size:12px;color:#aaa;margin-top:7px}
+button{cursor:pointer;font:inherit}
+button:active{transform:scale(.98)}
+.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.action{background:#25231f;border:1px solid #4a3a24;color:#f4d292;border-radius:16px;padding:15px 5px}
+.line{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.switch{background:#35363a;border:0;border-radius:30px;padding:10px 16px;color:white}
+.switch.on{background:#bd914e;color:#080808}
+input[type=range]{width:100%;accent-color:#e5ba69}
+nav{position:fixed;bottom:0;left:0;right:0;background:#14161b;border-top:1px solid #333;display:flex;justify-content:space-around;padding:13px 4px max(17px,env(safe-area-inset-bottom))}
+nav button{border:0;background:none;color:#aaa;font-size:12px}
+nav button.active{color:#e5ba69}
+.page{display:none}
+.page.active{display:block}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div><h1>Mitt Hem <span class="gold">⌂</span></h1><p>Din personliga hemkontroll</p></div>
+<span class="gold">● DEMO</span>
+</header>
+
+<section id="hem" class="page active">
+<div class="panel hero">
+<h2>Välkommen hem ✨</h2>
+<p>Allt ditt smarta hem på ett ställe.</p>
+<div class="line"><span>🔒 Ytterdörr</span><b class="gold">Låst (demo)</b></div>
+</div>
+<h2>Enheter</h2>
+<div class="grid">
+<button class="tile" onclick="show('lampor')"><span class="emoji">💡</span>Lampor<div class="small">Telldus</div></button>
+<button class="tile" onclick="show('sonos')"><span class="emoji">🎵</span>Sonos<div class="small">Musik och ljud</div></button>
+<button class="tile" onclick="show('dorr')"><span class="emoji">🔒</span>Ytterdörr<div class="small">Verisure</div></button>
+<button class="tile" onclick="show('robot')"><span class="emoji">🤖</span>Roborock<div class="small">Dammsugare</div></button>
+<button class="tile" onclick="show('familj')"><span class="emoji">👨‍👩‍👧‍👦</span>Familjen<div class="small">Life360</div></button>
+<button class="tile" onclick="show('kameror')"><span class="emoji">📹</span>Kameror<div class="small">Framtida kameror</div></button>
+</div>
+<h2>Snabbknappar</h2>
+<div class="actions">
+<button class="action" onclick="notice('God natt')">🌙<br>God natt</button>
+<button class="action" onclick="notice('Filmkväll')">🎬<br>Filmkväll</button>
+<button class="action" onclick="notice('Allt av')">⏻<br>Allt av</button>
+</div>
+</section>
+
+<section id="lampor" class="page">
+<h2>💡 Belysning</h2>
+<p>Telldus – testreglage</p>
+<div id="lights"></div>
+</section>
+
+<section id="sonos" class="page">
+<h2>🎵 Sonos</h2>
+<div class="panel">
+<h2>Musik i hemmet</h2>
+<p>Vardagsrum · Demo</p>
+<div class="line">
+<button class="action" onclick="notice('Föregående')">⏮</button>
+<button class="action" onclick="notice('Spela / pausa')">⏯</button>
+<button class="action" onclick="notice('Nästa')">⏭</button>
+</div>
+<p>Volym</p><input type="range" min="0" max="100" value="35">
+</div>
+</section>
+
+<section id="dorr" class="page">
+<h2>🔒 Ytterdörr</h2>
+<div class="panel">
+<h2 class="gold">Låst</h2>
+<p>Exempelstatus – inte ansluten till Verisure</p>
+<button class="action" onclick="notice('Dörrstyrning kräver säker anslutning')">Visa låsinformation</button>
+</div>
+<h2>Händelser</h2>
+<div class="panel"><p>Här kommer upplåsningar, koder och misslyckade försök visas när integrationen stöder det.</p></div>
+</section>
+
+<section id="robot" class="page">
+<h2>🤖 Roborock Q5 Max</h2>
+<div class="panel">
+<p>Status: Väntar på anslutning</p>
+<div class="actions">
+<button class="action" onclick="notice('Starta städning')">▶ Starta</button>
+<button class="action" onclick="notice('Pausa städning')">⏸ Pausa</button>
+<button class="action" onclick="notice('Återvänd hem')">⌂ Hem</button>
+</div>
+</div>
+</section>
+
+<section id="familj" class="page">
+<h2>👨‍👩‍👧‍👦 Familjen</h2>
+<div class="panel"><p>Life360-anslutning planeras. Familjens positioner visas inte i denna demo.</p></div>
+</section>
+
+<section id="kameror" class="page">
+<h2>📹 Kameror</h2>
+<div class="grid">
+<div class="panel">Kamera 1<p>Ej ansluten</p></div>
+<div class="panel">Kamera 2<p>Ej ansluten</p></div>
+<div class="panel">Kamera 3<p>Ej ansluten</p></div>
+<div class="panel">Kamera 4<p>Ej ansluten</p></div>
+</div>
+</section>
+</main>
+
+<nav>
+<button onclick="show('hem')" id="navhem" class="active">⌂<br>Hem</button>
+<button onclick="show('lampor')" id="navlampor">💡<br>Lampor</button>
+<button onclick="show('sonos')" id="navsonos">♫<br>Sonos</button>
+<button onclick="show('familj')" id="navfamilj">♧<br>Familj</button>
+<button onclick="show('kameror')" id="navkameror">▣<br>Kameror</button>
+</nav>
+<script>
+const rooms=['Vardagsrum','Kök','Sovrum','Hall','Uterum'];
+document.getElementById('lights').innerHTML=rooms.map(r=>`
+<div class="panel">
+<div class="line"><b>${r}</b><button class="switch" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'På':'Av'">Av</button></div>
+<p>Ljusstyrka</p><input type="range" min="0" max="100" value="50">
+</div>`).join('');
+function show(id){
+document.querySelectorAll('.page').forEach(e=>e.classList.remove('active'));
+document.getElementById(id).classList.add('active');
+document.querySelectorAll('nav button').forEach(e=>e.classList.remove('active'));
+const n=document.getElementById('nav'+id);if(n)n.classList.add('active');
+window.scrollTo(0,0);
+}
+function notice(name){alert(name+' – demoläge. Ingen riktig enhet påverkas.')}
+</script>
+</body>
+</html>
