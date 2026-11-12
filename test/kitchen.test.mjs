@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {scale,servings,amount,shoppingList,searchRecipes} from '../src/kitchen.mjs';
+const pasta={id:'pasta',title:'Pasta med kyckling',description:'Italiensk middag',base:4,ingredients:[['pasta',400,'g','pasta'],['chicken',600,'g','kyckling'],['cream',2,'dl','grädde'],['egg',1,'st','ägg'],['salt',null,'','salt']]};
+for(const n of [2,4,7,10,15,1,30])test('Portioner '+n,()=>{const items=scale(pasta,n);assert.equal(items[0].quantity,100*n);assert.equal(items[1].quantity,150*n);assert.equal(items[3].quantity,n/4);assert.equal(items[4].quantity,null);assert.equal(pasta.ingredients[0][1],400);});
+test('Ogiltiga portioner avvisas',()=>{for(const n of [0,31,-1,2.2,'',null,NaN,Infinity])assert.throws(()=>servings(n));});
+test('Bråk och smak',()=>{assert.equal(amount(scale(pasta,2)[3]),'½ st');assert.equal(amount(scale(pasta,7)[3]),'1 ¾ st');assert.equal(amount(scale(pasta,2)[4]),'Efter smak');});
+test('Enheter summeras och mängder räknas om från grunden',()=>{const b={id:'b',base:1,ingredients:[['cream',100,'ml','grädde']]};assert.equal(shoppingList([{recipeId:'pasta',servings:4},{recipeId:'b',servings:1}],[pasta,b]).find(x=>x.id==='cream').quantity,300);assert.equal(shoppingList([{recipeId:'pasta',servings:2}],[pasta]).find(x=>x.id==='pasta').quantity,200);assert.equal(shoppingList([{recipeId:'pasta',servings:7}],[pasta]).find(x=>x.id==='pasta').quantity,700);});
+test('Skedar och oz konverteras bara som volym',()=>{const r={id:'a',base:1,ingredients:[['oil',1,'msk','olja'],['oil',1,'tsk','olja'],['oil',1,'oz','olja']]};assert.equal(shoppingList([{recipeId:'a',servings:1}],[r])[0].quantity,49.57353);assert.equal(amount({quantity:1500,unit:'g'}),'1,5 kg');});
+test('Naturlig ingredienssökning',()=>{assert.equal(searchRecipes('Jag har kyckling och pasta hemma',[pasta]).length,1);assert.equal(searchRecipes('lax och pasta',[pasta]).length,0);});
