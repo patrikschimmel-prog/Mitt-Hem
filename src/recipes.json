@@ -1,0 +1,1650 @@
+[
+  {
+    "id": "pomodoro",
+    "title": "Pasta al pomodoro",
+    "category": "italian",
+    "minutes": 25,
+    "base": 4,
+    "image": "pasta.webp",
+    "description": "Tomat, basilika och parmesan. En enkel italiensk vardagsfavorit.",
+    "ingredients": [
+      [
+        "pasta",
+        400,
+        "g",
+        "pasta"
+      ],
+      [
+        "tomato",
+        800,
+        "g",
+        "krossade tomater"
+      ],
+      [
+        "garlic",
+        2,
+        "st",
+        "vitlöksklyftor"
+      ],
+      [
+        "olive-oil",
+        30,
+        "ml",
+        "olivolja"
+      ],
+      [
+        "parmesan",
+        80,
+        "g",
+        "parmesan"
+      ],
+      [
+        "basil",
+        20,
+        "g",
+        "basilika"
+      ],
+      [
+        "salt",
+        null,
+        "",
+        "salt och svartpeppar"
+      ]
+    ],
+    "steps": [
+      "Koka upp saltat vatten. Koka pastan enligt förpackningen och spara lite pastavatten.",
+      "Skiva vitlöken och värm försiktigt i olivoljan. Tillsätt tomaterna och låt sjuda i cirka 15 minuter.",
+      "Vänd ned pastan i såsen. Späd med lite pastavatten till lagom konsistens.",
+      "Riv över parmesan, lägg på basilika och smaka av med salt och peppar."
+    ]
+  },
+  {
+    "id": "carbonara",
+    "title": "Spaghetti alla carbonara",
+    "category": "italian",
+    "minutes": 25,
+    "base": 4,
+    "description": "Krämigheten kommer från ägg, ost och pastavatten. Ingen grädde.",
+    "ingredients": [
+      [
+        "spaghetti",
+        400,
+        "g",
+        "spaghetti"
+      ],
+      [
+        "guanciale",
+        150,
+        "g",
+        "guanciale eller pancetta"
+      ],
+      [
+        "egg",
+        2,
+        "st",
+        "ägg"
+      ],
+      [
+        "yolk",
+        2,
+        "st",
+        "äggulor"
+      ],
+      [
+        "pecorino",
+        100,
+        "g",
+        "pecorino"
+      ],
+      [
+        "pepper",
+        null,
+        "",
+        "svartpeppar och salt"
+      ]
+    ],
+    "steps": [
+      "Skär guancialen i bitar och stek försiktigt tills fettet smält ut och bitarna fått färg.",
+      "Vispa ihop ägg, äggulor, finriven ost och svartpeppar.",
+      "Koka pastan och spara pastavatten. Vänd pastan i pannan med guancialen.",
+      "Ta pannan från värmen. Vänd ned äggblandningen och lite pastavatten under omrörning. Värm varsamt vid behov; såsen ska bli krämig och inte stelna. Servera direkt."
+    ]
+  },
+  {
+    "id": "cacio-pepe",
+    "title": "Cacio e pepe",
+    "category": "italian",
+    "minutes": 20,
+    "base": 4,
+    "description": "Tre huvudingredienser: pasta, pecorino och svartpeppar.",
+    "ingredients": [
+      [
+        "spaghetti",
+        400,
+        "g",
+        "spaghetti"
+      ],
+      [
+        "pecorino",
+        180,
+        "g",
+        "pecorino"
+      ],
+      [
+        "pepper",
+        null,
+        "",
+        "nymalen svartpeppar och salt"
+      ]
+    ],
+    "steps": [
+      "Finriv osten. Koka pastan och spara rikligt med pastavatten.",
+      "Rosta svartpeppar lätt i en torr panna och tillsätt lite pastavatten.",
+      "Vänd ned pastan. Ta från värmen, tillsätt ost lite i taget och rör med små mängder pastavatten till en krämig sås.",
+      "Servera direkt. Håll värmen låg så att osten inte klumpar sig."
+    ]
+  },
+  {
+    "id": "risotto",
+    "title": "Risotto med svamp",
+    "category": "italian",
+    "minutes": 40,
+    "base": 4,
+    "description": "En lugn italiensk middag med svamp, parmesan och citron.",
+    "ingredients": [
+      [
+        "risotto-rice",
+        320,
+        "g",
+        "risottoris"
+      ],
+      [
+        "mushroom",
+        400,
+        "g",
+        "svamp"
+      ],
+      [
+        "shallot",
+        2,
+        "st",
+        "schalottenlökar"
+      ],
+      [
+        "broth",
+        1000,
+        "ml",
+        "varm grönsaksbuljong"
+      ],
+      [
+        "parmesan",
+        80,
+        "g",
+        "parmesan"
+      ],
+      [
+        "butter",
+        40,
+        "g",
+        "smör"
+      ],
+      [
+        "olive-oil",
+        15,
+        "ml",
+        "olivolja"
+      ],
+      [
+        "lemon",
+        1,
+        "st",
+        "citron"
+      ],
+      [
+        "salt",
+        null,
+        "",
+        "salt och svartpeppar"
+      ]
+    ],
+    "steps": [
+      "Stek skivad svamp i lite av smöret och ställ åt sidan.",
+      "Finhacka löken och fräs mjuk i olivolja. Tillsätt riset och rör någon minut.",
+      "Tillsätt varm buljong lite i taget och rör ofta. Fortsätt tills riset är mjukt med lite kärna, cirka 18–22 minuter. Buljongmängden kan variera.",
+      "Vänd ned svamp, resten av smöret och parmesan. Smaka av med citron, salt och peppar."
+    ]
+  },
+  {
+    "id": "lemon-chicken",
+    "title": "Citronkyckling med krispig potatis",
+    "category": "everyday",
+    "minutes": 40,
+    "base": 4,
+    "image": "chicken.webp",
+    "description": "En varm middag med citron, örter och broccoli.",
+    "ingredients": [
+      [
+        "chicken",
+        600,
+        "g",
+        "kycklingfilé"
+      ],
+      [
+        "potato",
+        800,
+        "g",
+        "potatis"
+      ],
+      [
+        "broccoli",
+        400,
+        "g",
+        "broccoli"
+      ],
+      [
+        "cream",
+        200,
+        "ml",
+        "matlagningsgrädde"
+      ],
+      [
+        "lemon",
+        1,
+        "st",
+        "citron"
+      ],
+      [
+        "garlic",
+        2,
+        "st",
+        "vitlöksklyftor"
+      ],
+      [
+        "olive-oil",
+        30,
+        "ml",
+        "olivolja"
+      ],
+      [
+        "salt",
+        null,
+        "",
+        "salt, peppar och torkad timjan"
+      ]
+    ],
+    "steps": [
+      "Sätt ugnen på 225 °C. Dela potatisen, blanda med hälften av oljan och rosta cirka 30–35 minuter tills den är mjuk och gyllene.",
+      "Stek kycklingen i resten av oljan. Tillsätt hackad vitlök, grädde, citronzest och lite citronsaft.",
+      "Låt sjuda tills kycklingen är helt genomstekt. Smaka av såsen med salt, peppar och timjan.",
+      "Koka broccolin och servera med kyckling, sås och potatis."
+    ]
+  },
+  {
+    "id": "passion-spritz",
+    "title": "Passion & lime-spritz",
+    "category": "drinks",
+    "minutes": 10,
+    "base": 2,
+    "image": "spritz.webp",
+    "description": "Ett friskt alkoholfritt glas med passionsfrukt och lime.",
+    "ingredients": [
+      [
+        "passion",
+        2,
+        "st",
+        "passionsfrukter"
+      ],
+      [
+        "lime",
+        1,
+        "st",
+        "lime"
+      ],
+      [
+        "passion-juice",
+        150,
+        "ml",
+        "passionsfruktsjuice"
+      ],
+      [
+        "sparkling",
+        200,
+        "ml",
+        "kolsyrat vatten"
+      ],
+      [
+        "ice",
+        null,
+        "",
+        "is och färsk mynta"
+      ]
+    ],
+    "steps": [
+      "Dela passionsfrukten och skeda ur fruktköttet. Pressa limen.",
+      "Fördela frukt, lime och juice i glas med is.",
+      "Toppa med kolsyrat vatten, rör försiktigt och garnera med mynta. Smaka av före servering."
+    ],
+    "alcohol": false,
+    "glass": "Vinglas eller högt glas",
+    "garnish": "is och färsk mynta",
+    "profile": "Fruktig / syrlig"
+  },
+  {
+    "id": "salmon",
+    "title": "Ugnslax med dill och citron",
+    "category": "fish",
+    "minutes": 30,
+    "base": 4,
+    "description": "Svensk vardag · lax, potatis och kall yoghurtsås.",
+    "ingredients": [
+      [
+        "salmon",
+        600,
+        "g",
+        "laxfilé"
+      ],
+      [
+        "potato",
+        800,
+        "g",
+        "potatis"
+      ],
+      [
+        "yogurt",
+        200,
+        "g",
+        "naturell yoghurt"
+      ],
+      [
+        "lemon",
+        1,
+        "st",
+        "citron"
+      ],
+      [
+        "dill",
+        20,
+        "g",
+        "dill"
+      ],
+      [
+        "olive-oil",
+        15,
+        "ml",
+        "olivolja"
+      ],
+      [
+        "salt",
+        null,
+        "",
+        "salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Sätt ugnen på 200 °C. Koka potatisen mjuk.",
+      "Lägg laxen i en form, pensla med olja, salta och peppra. Tillaga cirka 15–20 minuter tills fisken är färdig; tiden beror på tjockleken.",
+      "Blanda yoghurt, hackad dill och citron efter smak. Servera med lax och potatis."
+    ],
+    "image": "salmon.webp"
+  },
+  {
+    "id": "tacos",
+    "title": "Tacos med lime och avokado",
+    "category": "everyday",
+    "minutes": 25,
+    "base": 4,
+    "description": "Mexikanskt inspirerat · en enkel middag att dela.",
+    "ingredients": [
+      [
+        "beef",
+        500,
+        "g",
+        "nötfärs"
+      ],
+      [
+        "tortilla",
+        8,
+        "st",
+        "små tortillabröd"
+      ],
+      [
+        "avocado",
+        2,
+        "st",
+        "avokador"
+      ],
+      [
+        "tomato-fresh",
+        3,
+        "st",
+        "tomater"
+      ],
+      [
+        "corn",
+        150,
+        "g",
+        "majs"
+      ],
+      [
+        "lime",
+        1,
+        "st",
+        "lime"
+      ],
+      [
+        "yogurt",
+        150,
+        "g",
+        "yoghurt"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "spiskummin, paprikapulver, salt och olja"
+      ]
+    ],
+    "steps": [
+      "Stek färsen helt genomstekt och krydda med spiskummin, paprika och salt.",
+      "Tärna avokado och tomat. Pressa lime över avokadon.",
+      "Värm bröden och låt alla fylla dem med färs, grönsaker, majs och yoghurt."
+    ]
+  },
+  {
+    "id": "lentil-dal",
+    "title": "Krämig linsdal med kokos",
+    "category": "vegetarian",
+    "minutes": 30,
+    "base": 4,
+    "description": "Indiskt inspirerat · värmande, billigt och vegetariskt.",
+    "ingredients": [
+      [
+        "red-lentils",
+        300,
+        "g",
+        "röda linser"
+      ],
+      [
+        "coconut-milk",
+        400,
+        "ml",
+        "kokosmjölk"
+      ],
+      [
+        "tomato",
+        400,
+        "g",
+        "krossade tomater"
+      ],
+      [
+        "onion",
+        1,
+        "st",
+        "gul lök"
+      ],
+      [
+        "garlic",
+        2,
+        "st",
+        "vitlöksklyftor"
+      ],
+      [
+        "basmati-rice",
+        280,
+        "g",
+        "basmatiris"
+      ],
+      [
+        "water",
+        300,
+        "ml",
+        "vatten"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "curry, ingefära, salt och olja"
+      ]
+    ],
+    "steps": [
+      "Koka riset enligt förpackningen. Skölj linserna.",
+      "Hacka lök och vitlök. Fräs i olja med curry och ingefära.",
+      "Tillsätt linser, tomat, kokosmjölk och vatten. Sjud 20–25 minuter, rör då och då och späd vid behov. Smaka av och servera med ris."
+    ]
+  },
+  {
+    "id": "thai-chicken",
+    "title": "Thailändsk kycklingcurry",
+    "category": "asian",
+    "minutes": 30,
+    "base": 4,
+    "description": "Thailändskt inspirerat · kokos, lime och krispiga grönsaker.",
+    "ingredients": [
+      [
+        "chicken",
+        600,
+        "g",
+        "kycklingfilé"
+      ],
+      [
+        "coconut-milk",
+        400,
+        "ml",
+        "kokosmjölk"
+      ],
+      [
+        "red-curry",
+        30,
+        "g",
+        "röd currypasta"
+      ],
+      [
+        "pepper-red",
+        2,
+        "st",
+        "paprikor"
+      ],
+      [
+        "broccoli",
+        300,
+        "g",
+        "broccoli"
+      ],
+      [
+        "jasmine-rice",
+        280,
+        "g",
+        "jasminris"
+      ],
+      [
+        "lime",
+        1,
+        "st",
+        "lime"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "olja och salt"
+      ]
+    ],
+    "steps": [
+      "Koka riset. Skär kyckling och grönsaker i bitar.",
+      "Fräs currypastan försiktigt i lite olja. Tillsätt kyckling och kokosmjölk.",
+      "Sjud tills kycklingen är helt genomstekt, tillsätt grönsakerna mot slutet. Smaka av med lime och servera med ris."
+    ]
+  },
+  {
+    "id": "greek-bowl",
+    "title": "Grekisk kycklingbowl med tzatziki",
+    "category": "everyday",
+    "minutes": 35,
+    "base": 4,
+    "description": "Grekiskt inspirerat · citron, oregano och fräscha grönsaker.",
+    "ingredients": [
+      [
+        "chicken",
+        600,
+        "g",
+        "kycklingfilé"
+      ],
+      [
+        "bulgur",
+        280,
+        "g",
+        "bulgur"
+      ],
+      [
+        "cucumber",
+        1,
+        "st",
+        "gurka"
+      ],
+      [
+        "tomato-fresh",
+        3,
+        "st",
+        "tomater"
+      ],
+      [
+        "yogurt",
+        300,
+        "g",
+        "grekisk yoghurt"
+      ],
+      [
+        "garlic",
+        1,
+        "st",
+        "vitlöksklyfta"
+      ],
+      [
+        "lemon",
+        1,
+        "st",
+        "citron"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "oregano, olivolja och salt"
+      ]
+    ],
+    "steps": [
+      "Koka bulgur enligt förpackningen. Krydda kycklingen med oregano, olja, citron och salt.",
+      "Stek kycklingen helt genomstekt. Riv hälften av gurkan och krama ur.",
+      "Blanda riven gurka, yoghurt och vitlök. Servera med kyckling, bulgur och resten av grönsakerna."
+    ]
+  },
+  {
+    "id": "meatballs",
+    "title": "Köttbullar med potatis och gräddsås",
+    "category": "everyday",
+    "minutes": 45,
+    "base": 4,
+    "description": "Svensk husmanskost · en familjefavorit.",
+    "ingredients": [
+      [
+        "mixed-mince",
+        500,
+        "g",
+        "blandfärs"
+      ],
+      [
+        "egg",
+        1,
+        "st",
+        "ägg"
+      ],
+      [
+        "breadcrumbs",
+        50,
+        "g",
+        "ströbröd"
+      ],
+      [
+        "milk",
+        100,
+        "ml",
+        "mjölk"
+      ],
+      [
+        "onion",
+        1,
+        "st",
+        "gul lök"
+      ],
+      [
+        "potato",
+        800,
+        "g",
+        "potatis"
+      ],
+      [
+        "cream",
+        200,
+        "ml",
+        "grädde"
+      ],
+      [
+        "broth",
+        150,
+        "ml",
+        "buljong"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "smör, soja, salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Koka potatisen. Låt ströbröd svälla i mjölken i 5 minuter.",
+      "Blanda med färs, ägg, finriven lök, salt och peppar. Forma köttbullar.",
+      "Stek i smör tills de är genomstekta. Lyft ur, häll grädde och buljong i pannan och sjud. Smaka av med soja och servera."
+    ]
+  },
+  {
+    "id": "halloumi",
+    "title": "Halloumibowl med couscous",
+    "category": "vegetarian",
+    "minutes": 25,
+    "base": 4,
+    "description": "Vegetariskt · färg, sälta och citron.",
+    "ingredients": [
+      [
+        "halloumi",
+        400,
+        "g",
+        "halloumi"
+      ],
+      [
+        "couscous",
+        280,
+        "g",
+        "couscous"
+      ],
+      [
+        "chickpea",
+        400,
+        "g",
+        "kokta avrunna kikärter"
+      ],
+      [
+        "cucumber",
+        1,
+        "st",
+        "gurka"
+      ],
+      [
+        "tomato-fresh",
+        3,
+        "st",
+        "tomater"
+      ],
+      [
+        "lemon",
+        1,
+        "st",
+        "citron"
+      ],
+      [
+        "yogurt",
+        150,
+        "g",
+        "yoghurt"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "olivolja, salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Tillaga couscous enligt förpackningen. Skölj kikärterna och tärna grönsakerna.",
+      "Skiva halloumin och stek gyllene i lite olja.",
+      "Fördela allt i skålar, pressa över citron och servera med yoghurt."
+    ]
+  },
+  {
+    "id": "cod",
+    "title": "Torsk med brynt smör och ärter",
+    "category": "fish",
+    "minutes": 30,
+    "base": 4,
+    "description": "Svensk fiskmiddag · mild och enkel.",
+    "ingredients": [
+      [
+        "cod",
+        600,
+        "g",
+        "torskfilé"
+      ],
+      [
+        "potato",
+        800,
+        "g",
+        "potatis"
+      ],
+      [
+        "peas",
+        300,
+        "g",
+        "gröna ärter"
+      ],
+      [
+        "butter",
+        80,
+        "g",
+        "smör"
+      ],
+      [
+        "lemon",
+        1,
+        "st",
+        "citron"
+      ],
+      [
+        "salt",
+        null,
+        "",
+        "salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Sätt ugnen på 175 °C och koka potatisen.",
+      "Salta fisken och tillaga i form cirka 15–20 minuter tills den är färdig; anpassa efter tjocklek.",
+      "Koka ärterna. Bryn smöret varsamt tills det doftar nötigt. Servera med potatis, ärter och citron."
+    ]
+  },
+  {
+    "id": "beef-weekend",
+    "title": "Ryggbiff med rostad potatis",
+    "category": "weekend",
+    "minutes": 45,
+    "base": 4,
+    "description": "Helgmiddag · rostad potatis och örtkräm.",
+    "ingredients": [
+      [
+        "steak",
+        600,
+        "g",
+        "ryggbiff"
+      ],
+      [
+        "potato",
+        800,
+        "g",
+        "potatis"
+      ],
+      [
+        "carrot",
+        400,
+        "g",
+        "morötter"
+      ],
+      [
+        "creme-fraiche",
+        200,
+        "g",
+        "crème fraiche"
+      ],
+      [
+        "garlic",
+        1,
+        "st",
+        "vitlöksklyfta"
+      ],
+      [
+        "parsley",
+        20,
+        "g",
+        "persilja"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "olja, smör, salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Rosta delad potatis och morötter med olja och salt i 225 °C cirka 30–35 minuter.",
+      "Blanda crème fraiche med vitlök och hackad persilja.",
+      "Stek biffen efter önskad stekgrad. Låt vila innan den skivas och servera med grönsaker och örtkräm."
+    ],
+    "image": "steak.webp"
+  },
+  {
+    "id": "shrimp-noodles",
+    "title": "Nudlar med räkor och lime",
+    "category": "asian",
+    "minutes": 20,
+    "base": 4,
+    "description": "Asiatiskt inspirerat · snabbt med vitlök och lime.",
+    "ingredients": [
+      [
+        "noodles",
+        280,
+        "g",
+        "äggnudlar"
+      ],
+      [
+        "shrimp",
+        400,
+        "g",
+        "kokta skalade räkor"
+      ],
+      [
+        "carrot",
+        2,
+        "st",
+        "morötter"
+      ],
+      [
+        "pepper-red",
+        1,
+        "st",
+        "paprika"
+      ],
+      [
+        "garlic",
+        2,
+        "st",
+        "vitlöksklyftor"
+      ],
+      [
+        "soy",
+        40,
+        "ml",
+        "soja"
+      ],
+      [
+        "lime",
+        1,
+        "st",
+        "lime"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "olja och chili efter smak"
+      ]
+    ],
+    "steps": [
+      "Koka nudlarna enligt förpackningen. Strimla grönsakerna.",
+      "Woka grönsaker och vitlök i olja. Vänd ned nudlar, soja och lime.",
+      "Tillsätt de redan kokta räkorna sist och värm kort så att de inte blir sega."
+    ]
+  },
+  {
+    "id": "bolognese",
+    "title": "Långkokt spaghetti bolognese",
+    "category": "italian",
+    "minutes": 60,
+    "base": 4,
+    "description": "Italienskt inspirerat · en mustig köttfärssås.",
+    "ingredients": [
+      [
+        "spaghetti",
+        400,
+        "g",
+        "spaghetti"
+      ],
+      [
+        "beef",
+        500,
+        "g",
+        "nötfärs"
+      ],
+      [
+        "tomato",
+        800,
+        "g",
+        "krossade tomater"
+      ],
+      [
+        "onion",
+        1,
+        "st",
+        "gul lök"
+      ],
+      [
+        "carrot",
+        2,
+        "st",
+        "morötter"
+      ],
+      [
+        "garlic",
+        2,
+        "st",
+        "vitlöksklyftor"
+      ],
+      [
+        "parmesan",
+        80,
+        "g",
+        "parmesan"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "olivolja, oregano, salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Finhacka lök, morot och vitlök. Fräs i olja.",
+      "Bryn färsen helt genomstekt och tillsätt tomat och kryddor. Sjud 40–50 minuter, späd med vatten vid behov.",
+      "Koka pastan och servera med sås och parmesan."
+    ]
+  },
+  {
+    "id": "pesto",
+    "title": "Pasta med basilika, pesto och mozzarella",
+    "category": "italian",
+    "minutes": 20,
+    "base": 4,
+    "description": "Italienskt inspirerat · en snabb grön pasta.",
+    "ingredients": [
+      [
+        "pasta",
+        400,
+        "g",
+        "pasta"
+      ],
+      [
+        "pesto",
+        120,
+        "g",
+        "basilikapesto"
+      ],
+      [
+        "mozzarella",
+        250,
+        "g",
+        "mozzarella"
+      ],
+      [
+        "cherry-tomato",
+        300,
+        "g",
+        "körsbärstomater"
+      ],
+      [
+        "basil",
+        20,
+        "g",
+        "basilika"
+      ],
+      [
+        "salt",
+        null,
+        "",
+        "salt och svartpeppar"
+      ]
+    ],
+    "steps": [
+      "Koka pastan och spara lite pastavatten.",
+      "Halvera tomaterna och riv mozzarellan i bitar.",
+      "Vänd pastan med pesto och lite pastavatten. Toppa med tomat, mozzarella och basilika."
+    ]
+  },
+  {
+    "id": "shakshuka",
+    "title": "Shakshuka med bönor och ägg",
+    "category": "vegetarian",
+    "minutes": 30,
+    "base": 4,
+    "description": "Nordafrikanskt inspirerat · tomat, paprika och ägg.",
+    "ingredients": [
+      [
+        "egg",
+        4,
+        "st",
+        "ägg"
+      ],
+      [
+        "white-beans",
+        400,
+        "g",
+        "kokta avrunna vita bönor"
+      ],
+      [
+        "tomato",
+        800,
+        "g",
+        "krossade tomater"
+      ],
+      [
+        "pepper-red",
+        1,
+        "st",
+        "paprika"
+      ],
+      [
+        "onion",
+        1,
+        "st",
+        "gul lök"
+      ],
+      [
+        "garlic",
+        2,
+        "st",
+        "vitlöksklyftor"
+      ],
+      [
+        "bread",
+        4,
+        "st",
+        "brödskivor"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "spiskummin, paprikapulver, salt och olja"
+      ]
+    ],
+    "steps": [
+      "Fräs hackad lök och paprika i olja. Tillsätt vitlök och kryddor.",
+      "Häll i tomat och bönor och sjud 15 minuter.",
+      "Gör gropar, knäck i äggen och lägg på lock. Sjud tills vitan har stelnat och äggen nått önskad konsistens. Servera med bröd."
+    ]
+  },
+  {
+    "id": "tomato-soup",
+    "title": "Rostad tomatsoppa med ostmacka",
+    "category": "vegetarian",
+    "minutes": 35,
+    "base": 4,
+    "description": "Vardagsmat · varm soppa och krispigt bröd.",
+    "ingredients": [
+      [
+        "tomato-fresh",
+        1000,
+        "g",
+        "tomater"
+      ],
+      [
+        "onion",
+        1,
+        "st",
+        "gul lök"
+      ],
+      [
+        "garlic",
+        3,
+        "st",
+        "vitlöksklyftor"
+      ],
+      [
+        "broth",
+        500,
+        "ml",
+        "grönsaksbuljong"
+      ],
+      [
+        "cream",
+        100,
+        "ml",
+        "grädde"
+      ],
+      [
+        "bread",
+        8,
+        "st",
+        "brödskivor"
+      ],
+      [
+        "cheese",
+        150,
+        "g",
+        "ost"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "olivolja, basilika, salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Rosta delade tomater, lök och vitlök med olja i 225 °C i cirka 25 minuter.",
+      "Mixa med varm buljong och grädde till önskad konsistens, värm och smaka av.",
+      "Gör ostsmörgåsar och grilla dem gyllene i panna eller ugn. Servera till soppan."
+    ]
+  },
+  {
+    "id": "omelette",
+    "title": "Örtomelett med fetaost och sallad",
+    "category": "vegetarian",
+    "minutes": 20,
+    "base": 4,
+    "description": "Enkel vardagsmat · ägg, örter och fetaost.",
+    "ingredients": [
+      [
+        "egg",
+        8,
+        "st",
+        "ägg"
+      ],
+      [
+        "milk",
+        80,
+        "ml",
+        "mjölk"
+      ],
+      [
+        "feta",
+        150,
+        "g",
+        "fetaost"
+      ],
+      [
+        "spinach",
+        150,
+        "g",
+        "spenat"
+      ],
+      [
+        "tomato-fresh",
+        3,
+        "st",
+        "tomater"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "smör, persilja, salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Vispa ihop ägg och mjölk. Krydda med lite salt och peppar.",
+      "Fräs spenaten kort i smör. Häll i äggblandningen och tillaga varsamt tills den stelnat. Gör flera omeletter vid stort sällskap.",
+      "Smula över fetaost och hackad persilja. Servera med skivade tomater."
+    ]
+  },
+  {
+    "id": "aperol-spritz",
+    "title": "Aperol Spritz",
+    "category": "drinks",
+    "minutes": 5,
+    "base": 1,
+    "description": "Italiensk aperitivo · med alkohol.",
+    "ingredients": [
+      [
+        "prosecco",
+        90,
+        "ml",
+        "prosecco"
+      ],
+      [
+        "aperol",
+        60,
+        "ml",
+        "Aperol"
+      ],
+      [
+        "sparkling",
+        30,
+        "ml",
+        "sodavatten"
+      ],
+      [
+        "garnish",
+        null,
+        "",
+        "is och apelsinskiva"
+      ]
+    ],
+    "steps": [
+      "Fyll ett stort vinglas med is. Häll i prosecco, Aperol och sodavatten.",
+      "Rör försiktigt och garnera med apelsin."
+    ],
+    "alcohol": true,
+    "glass": "Stort vinglas",
+    "garnish": "is och apelsinskiva",
+    "profile": "Bitter / frisk"
+  },
+  {
+    "id": "negroni",
+    "title": "Negroni",
+    "category": "drinks",
+    "minutes": 5,
+    "base": 1,
+    "description": "Bitter och klassisk · med alkohol.",
+    "ingredients": [
+      [
+        "gin",
+        30,
+        "ml",
+        "gin"
+      ],
+      [
+        "campari",
+        30,
+        "ml",
+        "Campari"
+      ],
+      [
+        "vermouth",
+        30,
+        "ml",
+        "söt röd vermouth"
+      ],
+      [
+        "garnish",
+        null,
+        "",
+        "is och apelsinzest"
+      ]
+    ],
+    "steps": [
+      "Rör alla vätskor med is i ett glas tills drinken är kall.",
+      "Servera över stor isbit och pressa apelsinzest över glaset."
+    ],
+    "alcohol": true,
+    "glass": "Lågt tumblerglas",
+    "garnish": "is och apelsinzest",
+    "profile": "Bitter / frisk"
+  },
+  {
+    "id": "margarita",
+    "title": "Margarita",
+    "category": "drinks",
+    "minutes": 5,
+    "base": 1,
+    "description": "Tequila och lime · med alkohol.",
+    "ingredients": [
+      [
+        "tequila",
+        50,
+        "ml",
+        "tequila blanco"
+      ],
+      [
+        "triple-sec",
+        20,
+        "ml",
+        "triple sec"
+      ],
+      [
+        "lime-juice",
+        25,
+        "ml",
+        "färsk limejuice"
+      ],
+      [
+        "garnish",
+        null,
+        "",
+        "is och salt till glaskanten"
+      ]
+    ],
+    "steps": [
+      "Salta glaskanten om du vill. Skaka vätskorna med is.",
+      "Sila upp i kylt glas."
+    ],
+    "alcohol": true,
+    "glass": "Kylt cocktailglas",
+    "garnish": "is och salt till glaskanten",
+    "profile": "Fruktig / syrlig"
+  },
+  {
+    "id": "mojito",
+    "title": "Mojito",
+    "category": "drinks",
+    "minutes": 5,
+    "base": 1,
+    "description": "Rom, mynta och lime · med alkohol.",
+    "ingredients": [
+      [
+        "rum",
+        50,
+        "ml",
+        "vit rom"
+      ],
+      [
+        "lime-juice",
+        25,
+        "ml",
+        "limejuice"
+      ],
+      [
+        "syrup",
+        20,
+        "ml",
+        "sockerlag"
+      ],
+      [
+        "sparkling",
+        80,
+        "ml",
+        "sodavatten"
+      ],
+      [
+        "garnish",
+        null,
+        "",
+        "mynta och is"
+      ]
+    ],
+    "steps": [
+      "Tryck myntan varsamt med limejuice och sockerlag i ett högt glas.",
+      "Fyll på rom och is, toppa med sodavatten och rör."
+    ],
+    "alcohol": true,
+    "glass": "Högt glas",
+    "garnish": "mynta och is",
+    "profile": "Frisk / örtig"
+  },
+  {
+    "id": "espresso-martini",
+    "title": "Espresso Martini",
+    "category": "drinks",
+    "minutes": 5,
+    "base": 1,
+    "description": "Kaffe och vodka · med alkohol.",
+    "ingredients": [
+      [
+        "vodka",
+        40,
+        "ml",
+        "vodka"
+      ],
+      [
+        "coffee-liqueur",
+        20,
+        "ml",
+        "kaffelikör"
+      ],
+      [
+        "espresso",
+        30,
+        "ml",
+        "avsvalnad espresso"
+      ],
+      [
+        "syrup",
+        10,
+        "ml",
+        "sockerlag"
+      ],
+      [
+        "garnish",
+        null,
+        "",
+        "is och kaffebönor"
+      ]
+    ],
+    "steps": [
+      "Skaka vätskorna ordentligt med mycket is.",
+      "Dubbelsila i kylt cocktailglas och garnera med kaffebönor."
+    ],
+    "alcohol": true,
+    "glass": "Kylt cocktailglas",
+    "garnish": "is och kaffebönor",
+    "profile": "Kaffe / fyllig"
+  },
+  {
+    "id": "gin-tonic",
+    "title": "Gin & tonic",
+    "category": "drinks",
+    "minutes": 5,
+    "base": 1,
+    "description": "Krispig och enkel · med alkohol.",
+    "ingredients": [
+      [
+        "gin",
+        50,
+        "ml",
+        "gin"
+      ],
+      [
+        "tonic",
+        150,
+        "ml",
+        "tonic"
+      ],
+      [
+        "garnish",
+        null,
+        "",
+        "is och citron"
+      ]
+    ],
+    "steps": [
+      "Fyll glaset med is. Häll i gin och tonic.",
+      "Rör varsamt och garnera med citron."
+    ],
+    "alcohol": true,
+    "glass": "Högt glas eller ballongglas",
+    "garnish": "is och citron",
+    "profile": "Frisk / örtig"
+  },
+  {
+    "id": "virgin-mojito",
+    "title": "Virgin Mojito",
+    "category": "drinks",
+    "minutes": 5,
+    "base": 1,
+    "description": "Mynta och lime · alkoholfri.",
+    "ingredients": [
+      [
+        "lime-juice",
+        30,
+        "ml",
+        "limejuice"
+      ],
+      [
+        "syrup",
+        20,
+        "ml",
+        "sockerlag"
+      ],
+      [
+        "sparkling",
+        120,
+        "ml",
+        "sodavatten"
+      ],
+      [
+        "garnish",
+        null,
+        "",
+        "mynta och is"
+      ]
+    ],
+    "steps": [
+      "Tryck myntan varsamt med limejuice och sockerlag.",
+      "Fyll på is och sodavatten, rör försiktigt."
+    ],
+    "alcohol": false,
+    "glass": "Högt glas",
+    "garnish": "mynta och is",
+    "profile": "Frisk / örtig"
+  },
+  {
+    "id": "grapefruit-fizz",
+    "title": "Grapefrukt & rosmarin-fizz",
+    "category": "drinks",
+    "minutes": 5,
+    "base": 1,
+    "description": "Frisk, lätt bitter och alkoholfri.",
+    "ingredients": [
+      [
+        "grapefruit",
+        100,
+        "ml",
+        "grapefruktjuice"
+      ],
+      [
+        "lime-juice",
+        15,
+        "ml",
+        "limejuice"
+      ],
+      [
+        "syrup",
+        15,
+        "ml",
+        "sockerlag"
+      ],
+      [
+        "sparkling",
+        80,
+        "ml",
+        "sodavatten"
+      ],
+      [
+        "garnish",
+        null,
+        "",
+        "is och rosmarin"
+      ]
+    ],
+    "steps": [
+      "Blanda juice och sockerlag med is.",
+      "Toppa med sodavatten och garnera med rosmarin."
+    ],
+    "alcohol": false,
+    "glass": "Högt glas",
+    "garnish": "is och rosmarin",
+    "profile": "Bitter / frisk"
+  },
+  {
+    "id": "chicken-pasta",
+    "title": "Krämig kycklingpasta med citron",
+    "category": "everyday",
+    "minutes": 30,
+    "base": 4,
+    "image": "pasta.webp",
+    "description": "Kyckling, pasta och spenat i en krämig citronsås.",
+    "ingredients": [
+      [
+        "pasta",
+        400,
+        "g",
+        "pasta"
+      ],
+      [
+        "chicken",
+        600,
+        "g",
+        "kycklingfilé"
+      ],
+      [
+        "cream",
+        250,
+        "ml",
+        "matlagningsgrädde"
+      ],
+      [
+        "spinach",
+        150,
+        "g",
+        "spenat"
+      ],
+      [
+        "garlic",
+        2,
+        "st",
+        "vitlöksklyftor"
+      ],
+      [
+        "lemon",
+        1,
+        "st",
+        "citron"
+      ],
+      [
+        "parmesan",
+        60,
+        "g",
+        "parmesan"
+      ],
+      [
+        "spice",
+        null,
+        "",
+        "olivolja, salt och peppar"
+      ]
+    ],
+    "steps": [
+      "Koka pastan enligt förpackningen och spara lite pastavatten.",
+      "Skär kycklingen i mindre bitar. Stek helt genomstekt i olja. Tillsätt finhackad vitlök mot slutet.",
+      "Häll på grädde och låt sjuda. Vänd ned spenat, finrivet citronskal och lite citronsaft.",
+      "Vänd ned pasta och parmesan. Späd med pastavatten vid behov och smaka av med salt och peppar."
+    ]
+  }
+]
